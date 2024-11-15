@@ -1,3 +1,6 @@
+def frontendImage="pandaacademy/frontend"
+def backendImage="pandaacademy/backend"
+
 pipeline {
     agent {
         label 'agent'
