@@ -27,9 +27,8 @@ pipeline {
                 sh "docker rm -f frontend backend"
             }
         }
-        }
     }
-    
+
     post {
         always {
           sh "docker-compose down"
