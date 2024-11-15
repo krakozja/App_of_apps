@@ -21,6 +21,7 @@ pipeline {
                     currentBuild.description = "Backend: ${backendDockerTag}, Frontend: ${frontendDockerTag}"
                 }
             }
+        }
         
         stage('Clean running containers') {
             steps {
@@ -36,7 +37,3 @@ pipeline {
         }
     }
 }
-
-
- 
- 
